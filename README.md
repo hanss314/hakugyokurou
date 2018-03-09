@@ -1,3 +1,3 @@
-##hakugyokurou
+## hakugyokurou
 
 A touhou themed grub theme
