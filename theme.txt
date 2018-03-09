@@ -1,0 +1,56 @@
+#general settings
+message-font: "ascii"
+message-color: "#000"
+message-bg-color: "#fff"
+terminal-font: "ascii"
+desktop-image: "hakugyokurou.png"
+
+#help bar at the bottom
++ label {
+	top = 100%-25
+	left = 0
+	width = 100%
+	height = 20
+	text = "@KEYMAP_MIDDLE@"
+	align = "center"
+	font = "ascii"
+	color = "#000"
+}
+
+#boot menu
++ boot_menu {
+	left = 10%
+	width = 80%
+	top = 20%
+	height = 50%	
+	item_font = "ascii"
+	item_color = "#000"
+	selected_item_font = "ascii"
+	selected_item_color= "#000"
+	selected_item_pixmap_style = "blob_*.png"
+	icon_height = 25
+	icon_width = 25
+	item_height = 26
+	item_padding = 0
+	item_icon_space = 0
+	item_spacing = 1
+	scrollbar = false
+	scrollbar_width = 20
+	scrollbar_thumb = "slider_*.png"
+	menu_pixmap_style = "boot_menu_*.png"
+}
+
+#progress bar
++ progress_bar {
+	id = "__timeout__"
+	left = 15%
+	top = 80%
+	height = 20
+	width = 70%
+	font = "ascii"
+	text_color = "#000"
+	fg_color = "#fff"
+	bg_color = "#fbc"
+	border_color = "#000"
+	text = "Girls are booting. Please wait warmly."
+}
