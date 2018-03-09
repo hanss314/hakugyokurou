@@ -52,5 +52,5 @@ desktop-image: "hakugyokurou.png"
 	fg_color = "#fff"
 	bg_color = "#fbc"
 	border_color = "#000"
-	text = "Girls are booting. Please wait warmly. @TIMEOUT_NOTIFICATION_MIDDLE@"
+	text = "Girls are booting. Please wait warmly."
 }
